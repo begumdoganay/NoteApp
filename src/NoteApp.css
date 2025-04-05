@@ -1,0 +1,77 @@
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f0f4f8;
+        margin: 0;
+        padding: 20px;
+    }
+    
+    .note-app {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    
+    .header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .header h1 {
+        font-size: 2.5em;
+        color: #333;
+    }
+    
+    .header p {
+        font-size: 1.2em;
+        color: #666;
+    }
+.add-button {
+    padding: 10px 20px;
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s;
+    box-shadow: 0 2px 5px rgba(108, 92, 231, 0.3);
+  }
+  
+  .add-button:hover {
+    background-color: #5b4bc4;
+    transform: translateY(-2px);
+  }
+  
+  .note {
+    transition: all 0.3s;
+  }
+  
+  .note:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1) !important;
+    transform: translateY(-3px);
+  }
+  
+  .delete-button {
+    opacity: 0.7;
+    transition: all 0.2s;
+  }
+  
+  .delete-button:hover {
+    background-color: rgba(255,94,94,0.1);
+    opacity: 1;
+  }
+  
+  .like-button:hover {
+    color: #e74c3c !important;
+  }
+  
+  .comment-button:hover {
+    color: #3498db !important;
+  }
+  
+  .share-button:hover {
+    color: #27ae60 !important;
+  }
